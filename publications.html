@@ -6,9 +6,19 @@
             width:100%;
             height:240px;
         }
+        
         img {
             width:100%;
             height:100%;
+        }
+
+        .logo{
+            width:100px;
+            height:100px;
+
+            /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+            object-fit:scale-down;
+
         }
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -31,7 +41,7 @@
             <div class="col-md-3">
                 <div class="profile-sidebar">
                     <div class="profile-userpic">
-                        <img src="images/ducmnguyen.jpg" class="img-responsive" alt="">
+                        <img src="images/ducmnguyen.jpg" class="img-responsive img-fluid" alt="Responsive image">
                     </div>
 
                     <div class="profile-usertitle">
